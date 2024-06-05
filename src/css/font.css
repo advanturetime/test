@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'test';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'appleSDGothicNeoB';
+  src: url('../etc/appleSDGothicNeoB.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'appleSDGothicNeoM';
+  src: url('../etc/appleSDGothicNeoM.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'appleSDGothicNeoL';
+  src: url('../etc/appleSDGothicNeoL.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'daughterOfFortune';
+  src: url('../etc/daughterOfFortune.ttf');
+  font-weight: normal;
+}

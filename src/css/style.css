@@ -1,0 +1,100 @@
+@import url("./font.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "appleSDGothicNeoL", sans-serif;
+}
+
+#body .title {
+  display: block;
+  margin-left: -20px;
+  color: #fbb90d;
+  font-size: 60px;
+  font-family: daughterOfFortune;
+  font-weight: normal;
+}
+#body > div {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+#body .skillSet {
+  position: relative;
+  bottom: -50px;
+  opacity: 0;
+  transition: opacity 1s, bottom 1s;
+}
+#body .skillSet.fade_in {
+  opacity: 1;
+  bottom: 0;
+}
+#body .skillSet > ul {
+  margin-top: 10px;
+}
+#body .skillSet > ul li {
+  margin-top: 10px;
+  height: 38px;
+}
+#body .skillSet > ul li > span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: appleSDGothicNeoM;
+}
+#body .skillSet > ul li i {
+  padding: 7px 14px;
+  font-size: 18px;
+  font-style: normal;
+  border-radius: 5px;
+}
+#body .skillSet > ul li i + i {
+  margin-left: 5px;
+}
+#body .experience {
+  position: relative;
+  bottom: -50px;
+  opacity: 0;
+  transition: opacity 1s, bottom 1s;
+}
+#body .experience.fade_in {
+  opacity: 1;
+  bottom: 0;
+}
+#body .experience > ul {
+  margin-top: 30px;
+}
+#body .experience > ul li span {
+  display: block;
+}
+#body .experience > ul li .exp_name {
+  font-size: 20px;
+  font-family: "appleSDGothicNeoM";
+}
+#body .experience > ul li .exp_term {
+  margin-top: 5px;
+  padding-left: 25px;
+  color: #4e4e4e;
+}
+#body .experience > ul li + li {
+  margin-top: 25px;
+}
