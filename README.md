@@ -1,1 +1,5 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=PARK%20JU%20YOUNG&fontSize=90&animation=fadeIn&fontAlignY=38)
+기존에 프로젝트를 웹팩으로 바꾸는 과정중입니다.
+
+일단 문제는 webpack.config.js 파일에 css, png, jpg, ttf, js 등을 변환하는 변환 코드를 넣어놨는데 dist에는 변환된 파일들이 안들어가 있고,
+
+src index.html 파일의 내용을 화면에 보이게 하고 싶은데 그러려면 어떻게 해야 하는지 감이 잘 안잡혀서요.
